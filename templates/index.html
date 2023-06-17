@@ -1,0 +1,133 @@
+<html>
+    <head>
+
+
+        <title> Titanic Classification Problem</title>
+        <style >
+        
+        form{
+          text-align: center;
+        }
+        input[type=Submit]{
+          background-color: green;
+          color: white;
+          width: 80px
+        }
+        input{
+          width: 50%
+        }
+        select{
+          width: 50%
+        }
+        label{
+          font-size: 20px;
+          display :inline-block;
+          width :300px;
+          text-align: right;
+        }
+        </style>
+        </head> 
+<body>
+<centre><h1> RMS Titanic Survival Prediction : {{results}} </h1></centre>
+
+<form action = "{{url_for ('predict')}}" method = "POST">
+
+<label for="Age">Age</label>
+<input type="number" id="Age" name="age" required = 'required' placeholder="Enter Age"></input>
+    
+<br></br>
+
+<label for = 'eductaion'>Education</label>
+<select  id="education" , name = 'education'>
+    <option value="1">Level 1</option>
+    <option value="2">Level 2</option>
+    <option value="3">Level 3</option>
+    <option value="4">level 4</option>
+</select>
+<br></br>
+
+<label for = 'sex'>Sex</label>
+<select id = 'sex', name = 'sex'>
+    <option value = "0">Female</option>
+    <option value = "1">Male</option>
+</select>
+<br></br>
+
+<label for = 'smoking'>Is smoking</label>
+<select id = 'smoking', name = 'smoking'>
+    <option value = "0">No</option>
+    <option value = "1">Yes</option>
+</select>
+<br></br>
+<label for="cigsPerDay">Cigarettes per day</label>
+<input type="number" id="cigsPerDay" name="cigsPerDay" required = 'required' placeholder="Cigarettes per day"></input>
+
+<br></br>
+<label for = 'BPMeds'>Active Blood pressure Medicine</label>
+<select id = 'BPMeds', name = 'BPMeds'>
+    <option value = "0">No</option>
+    <option value = "1">Yes</option>
+</select>
+<br></br>
+
+<label for = 'prevalentStroke'>Does Patient have any Stroke history</label>
+<select id = 'prevalentStroke', name = 'prevalentStroke'>
+    <option value = "0">No</option>
+    <option value = "1">Yes</option>
+</select>
+<br></br>
+
+<label for = 'prevalentHyp'>Was patient hypertensive</label>
+<select id = 'prevalentHyp', name = 'prevalentHyp'>
+    <option value = "0">No</option>
+    <option value = "1">Yes</option>
+</select>
+<br></br>
+
+<label for = 'diabetes'>Is patient Diabetic</label>
+<select id = 'diabetes', name = 'diabetes'>
+    <option value = "0">No</option>
+    <option value = "1">Yes</option>
+</select>
+
+<br></br>
+
+<label for ='totChol'>total cholesterol level</label>
+<input type = 'number' , id = 'totChol' , name = 'totChol' , required = 'required' , placeholder = 'Enter the total cholesterol level of patient'>
+</input>
+
+<br></br>
+
+<label for ='sysBP'> systolic blood pressure</label>
+<input type = 'number' , id = 'sysBP' , name = 'sysBP' , required = 'required' , placeholder = 'Enter the  systolic blood pressure of patient'>
+</input>
+
+<br></br>
+
+<label for ='diaBP'>diastolic blood pressure</label>
+<input type = 'number' , id = 'diaBP' , name = 'diaBP' , required = 'required' , placeholder = 'Enter the diastolic blood pressure of patient'>
+</input>
+
+<br></br>
+
+<label for ='BMI'>Body Mass Index</label>
+<input type = 'number' , id = 'BMI' , name = 'BMI' , required = 'required' , placeholder = 'Enter the Body mass index of patient'>
+</input>
+
+<br></br>
+
+<label for ='heartRate'>Heart Rate</label>
+<input type = 'number' , id = 'heartRate' , name = 'heartRate' , required = 'required' , placeholder = 'Enter Heart Rate of patient'>
+</input>
+
+<br></br>
+
+<label for ='glucose'>Glucose Level</label>
+<input type = 'number' , id = 'glucose' , name = 'glucose' , required = 'required' , placeholder = 'Enter the Glucose level of patient'>
+</input>
+
+<br></br>
+
+<input type = 'SUBMIT' , for = 'predict'>
+</body>
+</html>
