@@ -39,5 +39,6 @@ Dataset link - https://github.com/NiranjanKadam7/Cardio_vascular_Risk_pred_SVM/b
  - index.html
 
 ## Web Application
+![Screenshot (471)](https://github.com/NiranjanKadam7/Cardio_vascular_Risk_pred_SVM/assets/107809278/e179f561-35d9-442e-bee9-f7f0e6f529af)
 
 
