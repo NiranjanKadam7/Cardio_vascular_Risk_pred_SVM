@@ -4,8 +4,24 @@ I started this as a practice project.This is machine learning project and aim is
 
 
 ## Data Summary
+Data contains records of 16 different features recorded for over 3k patients. This features includes the patient medical history, physical features, habits. 
+-age: Age of the person
+-education: Eduction level of petient
+-sex: Sex of the feature
+-is_smoking: Does the person smokes?
+-cigsPerDay: If smoking, the number of cigarettes per day.
+-BPMeds: Is patient is consuming BP medicine?
+-prevalentStroke: Does the person have any stroke history
+-prevalentlHyp:Does the patient have any Hypertension history
+-diabetes: Does the patient have diabetes
+-totchol: Total cholesterol level of patient
+-sysBP: Systolic blood pressure count of patient
+-diaBP: diastolic blood pressure count of patient
+-BMI:Body mass index of patient
+-heartRate: Heart Rate of the patient
+-glucose:Glocose level of patient
+-TenYearCHD : Is the patient have cardiovascular disease or not?
 
-The sinking of the Titanic is one of the most infamous shipwrecks in history.On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.Dataset involves the features like Tickit class, Sex, Age, Siblings/spouces, Parents/children, Tickit Number, Passanger Fare, Cabin number,Port of Embarkation and output feature survive.
 
 Dataset link - https://github.com/NiranjanKadam7/Titanic_Survival_Prediction/blob/main/TitanicTrainingData.csv
 
