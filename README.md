@@ -23,7 +23,7 @@ Data contains records of 16 different features recorded for over 3k patients. Th
 - TenYearCHD : Is the patient have cardiovascular disease or not?
 
 
-Dataset link - https://github.com/NiranjanKadam7/Titanic_Survival_Prediction/blob/main/TitanicTrainingData.csv
+Dataset link - https://github.com/NiranjanKadam7/Cardio_vascular_Risk_pred_SVM/blob/main/data_cardiovascular_risk.csv
 
 
 ## Libraries Used
@@ -33,10 +33,10 @@ Dataset link - https://github.com/NiranjanKadam7/Titanic_Survival_Prediction/blo
  - Seaborn
  - Sklearn
 ## Files
- - Titanic_Survival_Pred.ipynb: Google colab conntain python code, documentation, Visualization
- - TitatnicTrainData.csv: Training Dataset
+ - Cardiovascularriskpred.ipynb: Google colab conntain python code, documentation, Visualization
+ - data_cardiovascular_risk: Training Dataset
  - app.py: Flask API file
  - index.html
 
-## ScreenShots 
- - Passangers Surviaval Count
+## Web Application
+
