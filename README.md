@@ -1,4 +1,4 @@
-# **Cardiovascular Risk Prediction **
+# **Cardiovascular Risk Prediction**
 I started this as a practice project.This is machine learning project and aim is to predict risk of getting cardivascular disease.The dataset is imported from kaggle platform.
 
 
